@@ -1,5 +1,7 @@
 # Next Template
 
+[![Use this template](https://img.shields.io/badge/Use%20this-template-2ea44f?style=for-the-badge)](https://github.com/ericduong107/next_ts-template-web/generate)
+
 Boilerplate Next.js (App Router + TypeScript + Tailwind CSS) sẵn sàng dùng ngay, không cần setup lại từ đầu mỗi khi bắt đầu dự án mới.
 
 ## Đã có sẵn
@@ -16,22 +18,18 @@ Boilerplate Next.js (App Router + TypeScript + Tailwind CSS) sẵn sàng dùng n
 - Trang `not-found`
 - File `.env.example` liệt kê sẵn các biến môi trường thường dùng
 
-## Cách dùng
+## Bắt đầu từ template này
 
-1. Copy toàn bộ thư mục này thành dự án mới (đổi tên thư mục tuỳ ý).
-2. Cài dependencies:
-   ```bash
-   npm install
-   ```
-3. Copy `.env.example` thành `.env.local` và điền giá trị cần thiết:
-   ```bash
-   cp .env.example .env.local
-   ```
-4. Chạy dev server:
-   ```bash
-   npm run dev
-   ```
-5. Mở [http://localhost:3000](http://localhost:3000).
+1. Bấm nút **Use this template** ở trên (hoặc nút xanh trên GitHub) → đặt tên repo mới.
+2. Clone repo vừa tạo về máy:
+   \`\`\`bash
+   git clone https://github.com/<user>/<ten-repo-moi>.git
+   cd <ten-repo-moi>
+   \`\`\`
+3. Cài dependencies: \`npm install\`
+4. Đổi tên project trong \`package.json\` (trường \`"name"\`) và tiêu đề trong README nếu workflow tự động ở bước 6 chưa chạy.
+5. Copy \`.env.example\` → \`.env.local\` và điền giá trị thật.
+6. Chạy \`npm run dev\` và bắt đầu code.
 
 ## Cấu trúc thư mục
 
